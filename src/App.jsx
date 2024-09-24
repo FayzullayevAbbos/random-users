@@ -5,7 +5,7 @@ import "tailwindcss/tailwind.css";
 const App = () => {
   const [allUsers, setAllUsers] = useState([]);
   const [displayedUsers, setDisplayedUsers] = useState([]); 
-  const [seed, setSeed] = useState(123);
+  const [seed, setSeed] = useState(0);
   const [errors, setErrors] = useState(0);
   const [region, setRegion] = useState("USA");
 
